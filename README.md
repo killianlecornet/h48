@@ -25,8 +25,8 @@ We have also use Php MyAdmins, Bootstrap and Heroku
  - ID : national
  - password : 1234
 
-##
+## BDD
 
-
+Aller dans le dosser database et prendre le fichier.sql
 
 Group 51 : Killian Lecornet, Neves Nicolas, Loic Pierret, Timothy Wu
