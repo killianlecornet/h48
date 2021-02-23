@@ -102,7 +102,7 @@ $conn = mysqli_connect($db_server,$db_user_login, $db_user_pass, $db_name);
 
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Les articles</h2>
+        <center><h2 class="mb-5">Les articles</h2></center>
 
 <?php
  // affichage du résultat

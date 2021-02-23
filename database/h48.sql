@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 23 fév. 2021 à 11:52
+-- Généré le : mar. 23 fév. 2021 à 14:54
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.5
 
@@ -42,15 +42,17 @@ CREATE TABLE `articles` (
 --
 
 INSERT INTO `articles` (`id`, `titre`, `image`, `type`, `tags`, `tags2`, `tags3`) VALUES
-(36, 'test9', '_AJG8248.jpg', 'Photos Produits', NULL, NULL, NULL),
-(37, 'test3', '_AJG7403.jpg', 'Photos Ambiance', NULL, NULL, NULL),
-(38, 'test4', '_AJG8213.jpg', 'Photos Produits', NULL, NULL, NULL),
-(39, 'test5', '_AJG8279.jpg', 'Photos Produits', NULL, NULL, NULL),
-(41, 'test90', '_AJG7128.jpg', 'Photos Ambiance', NULL, NULL, NULL),
-(43, 'test90', 'ardoisemenu.jpg', 'Photos Produits', NULL, NULL, NULL),
-(45, 'test63', 'Fotolia_40646456_Subscription_XXL.jpg', 'Photos Ambiance', NULL, NULL, NULL),
-(46, 'test86', 'Gregory Duchemin - Centre (1).jpg', 'Photos Ambiance', NULL, NULL, NULL),
-(50, 'test8562', 'Xavier_Thuret-38.jpg', 'Photos Ambiance', NULL, NULL, NULL);
+(52, 'Article 1', '_AJG7128.jpg', 'Photos Ambiance', NULL, NULL, NULL),
+(53, 'Article 2', '_AJG7403.jpg', 'Photos Ambiance', NULL, NULL, NULL),
+(54, 'Article 3', '_AJG8213 - Copie.jpg', 'Photos Ambiance', NULL, NULL, NULL),
+(55, 'Article 4', '_AJG8242.jpg', 'Photos Ambiance', NULL, NULL, NULL),
+(56, 'Article 5', '183815.jpg', 'Photos Produits', NULL, NULL, NULL),
+(58, 'Article 6', '160720-2.jpg', 'Photos Produits', NULL, NULL, NULL),
+(60, 'Article 7', '183817.jpg', 'Photos Produits', NULL, NULL, NULL),
+(62, 'Article 8', '216588.jpg', 'Photos Produits', NULL, NULL, NULL),
+(63, 'Article 9', '1547_Poêlée de riz cantonnais à la dinde Paysan Breton.jpg', 'Photos Produits', NULL, NULL, NULL),
+(64, 'Article 9', 'Cafe affogato.jpg', 'Photos Ambiance', NULL, NULL, NULL),
+(70, 'Article 10', '_AJG8242.jpg', 'Photos Produits', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -94,7 +96,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `firstname`, `surname`, `email`, `password`, `image`) VALUES
-(0, 'maktooo1', 'killian1', 'lecornet1', 'maktooo@hotmail.com1', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'Logo.png');
+(0, 'national', '', '', 'national@hotmail.fr', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'Logo.png');
 
 --
 -- Index pour les tables déchargées
@@ -126,7 +128,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `articles`
 --
 ALTER TABLE `articles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
 
 --
 -- AUTO_INCREMENT pour la table `filtres`
